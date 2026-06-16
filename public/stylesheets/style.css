@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+main {
+<<<<<<< HEAD
+  max-width: 520px;
+=======
+  max-width: 500px;
+>>>>>>> d725e53 (Add task-api)
+  margin: 40px auto;
+  background: white;
+  padding: 28px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+}
+
+<<<<<<< HEAD
+=======
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.topnav button {
+  padding: 8px 14px;
+  font-size: 13px;
+}
+
+>>>>>>> d725e53 (Add task-api)
+h1 {
+  color: #1f4e79;
+  margin-bottom: 16px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+<<<<<<< HEAD
+  margin-bottom: 16px;
+}
+
+input {
+  flex: 1;
+=======
+  flex-direction: column;
+  margin-bottom: 16px;
+  align-content: center;
+  }
+
+input {
+  flex: 1;
+  width: 300px;
+>>>>>>> d725e53 (Add task-api)
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 18px;
+  background: #2e75b6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1f4e79;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+li.done span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.del {
+  background: #c0392b;
+  padding: 4px 10px;
+  font-size: 13px;
+}

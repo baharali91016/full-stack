@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<body>
+  <main>
+    <h1>Sign Up</h1>
+    <form id="signupForm">
+      <input id="name" type="text" placeholder="Name" required />
+      <input id="email" type="email" placeholder="Email" required />
+      <input id="password" type="password" placeholder="Password" required minlength="6" />
+      <br />
+      <div>
+        <button type="submit">Create Account</button>
+      </div>
+      <p>Already have an account? <a href="/login.html">Login</a></p>
+      <p id="error" class="error"></p>
+    </form>
+  </main>
+  <script src="/javascripts/signup.js"></script>
+</body>
+
+</html>
